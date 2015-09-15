@@ -1,9 +1,15 @@
 var fs = require('fs'),
-	filename = './textFile.txt';
+var os = require('os');
 
+var EOL = os.EOL;
+filename = './textFile.txt';
 
+module.exports = function readnumoflines() {
 
-module.exports = function() {
+	if ( !fs.existsSync( path ) ) {
+        throw new Error("no such file or directory '" + path + "'");
+    }
+
 
 	var filedata,len = 0;
 	var lineCount = 0;
@@ -17,7 +23,7 @@ module.exports = function() {
 
 	stream.once('end',function(){
 
-		console.log(lineCount);
+		console.log("the lines in the file is "+lineCount);
 
 	});
  
