@@ -1,6 +1,6 @@
 {
   "name": "readfilenpm",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "read the file contents and display number of lines",
   "main": "readfile.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NaveenNs123/readfilenpm.git"
+    "url": "https://github.com/NaveenNs123/readfilenpm.git"
   },
   "keywords": [
     "readfilenpm"
   ],
   "author": "naveenns <naveenns.27oct@gmail.com> (http://teachnpmpackages.blogspot.in)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NaveenNs123/readfilenpm/issues"
   },
