@@ -4,7 +4,7 @@ var os = require('os');
 var EOL = os.EOL;
 filename = './textFile.txt';
 
-module.exports = function readnumoflines() {
+module.exports = function readfilenpm() {
 
 	if ( !fs.existsSync( path ) ) {
         throw new Error("no such file or directory '" + path + "'");
