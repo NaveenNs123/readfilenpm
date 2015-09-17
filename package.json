@@ -1,6 +1,6 @@
 {
   "name": "readfilenpm",
-   "version": "0.0.0",
+   "version": "0.0.1",
    "description": "Read an file and giveout the number of lines",
    "main": "readfile.js",
    "scripts": {
