@@ -4,11 +4,13 @@ var os = require('os');
 var EOL = os.EOL;
 filename = './textFile.txt';
 
-module.exports = function readfilenpm() {
+module.exports = readfilenpm;
+readfilenpm.read = function() {
 
+	/*
 	if ( !fs.existsSync( path ) ) {
         throw new Error("no such file or directory '" + path + "'");
-    }
+    }*/
 
 
 	var filedata,len = 0;
